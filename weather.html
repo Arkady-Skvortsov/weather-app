@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather App</title>
+	<meta charset="utf-8"/>
+	<!-- Favicon icon -->
+	<link rel="shortcut icon" href="./img/Pelfusion-Long-Shadow-Media-Cloud.ico" type="image/type" /> 
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+	<!-- view -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="weather.css" />
+</head>
+<body>
+    	<header>
+    		WEATHER APP
+    	</header>
+        
+        <div class="section">	
+    	   <input type="text" id="query" placeholder="Write any town" />
+    	   <button class="search">Search</button>
+        </div>
+
+        <section class="location">
+           <div id="name"></div>
+           <div id="time"></div> 	
+        </section>
+
+        <div class="information">
+        	<div class="gradyz"></div>
+        	<div class="weather_icon"><i id="weather_i_status"></i></div>
+        	<div class="status"></div>
+        </div>
+      
+	<!-- JS -->
+    <script src="weather.js"></script>
+</body>
+</html>
